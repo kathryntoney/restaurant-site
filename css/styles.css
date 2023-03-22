@@ -1,0 +1,144 @@
+/* purple #CDB4DB
+light pink #FFC8DD
+pink pink #FFAFCC
+light blue #BDE0FE
+blue blue #A2D2FF */
+
+/* background colors */
+.bg-purple {
+    background-color: #CDB4DB;
+}
+
+.bg-lightPink {
+    background-color: #FFC8DD;
+}
+
+.bg-pinkPink {
+    background-color: #FFAFCC;
+}
+
+.bg-lightBlue {
+    background-color: #BDE0FE;
+}
+
+.bg-blueBlue {
+    background-color: #A2D2FF;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-gray {
+    background-color: #63584C;
+}
+
+.bg-logo {
+    background-color: #E1A69F;
+}
+
+/* font colors */
+.text-purple {
+    color: #CDB4DB;
+}
+
+.text-lightPink {
+    color: #FFC8DD;
+}
+
+.text-pinkPink {
+    color: #FFAFCC;
+}
+
+.text-lightBlue {
+    color: #BDE0FE;
+}
+
+.text-blueBlue {
+    color: #A2D2FF;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray {
+    color: #63584C;
+}
+
+.text-logo {
+    color: #E1A69F;
+}
+
+.z10 {
+    z-index: 10;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.z20 {
+    z-index: 20;
+}
+
+.z25 {
+    z-index: 25;
+}
+
+.font-logo {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ps-light {
+    background-color: #E1A69F;
+    height: 650px;
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#dots {
+    border-top: 2px dotted #63584C;
+    border-bottom: 2px dotted #63584C;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    background-image: :src="require('@/images/frangipane.jpg)";
+    min-height: 700px;
+    /* create parallax effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#story {
+    font-size: 20px;
+}
+
+.background {
+    z-index: 1;
+}
+
+.menuItems {
+    z-index: 2;
+    color: white;
+}
+
+.font-nav {
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

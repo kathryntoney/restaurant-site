@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bostie Boys Bakery</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -48,55 +48,30 @@
 
         <div class="container-fluid m-0 p-0">
             <header class="position-relative" id="logo">
-                <div class="text-logo bg-white w-100 d-flex align-items-center justify-content-center flex-column mt-5">
+                <div
+                    class="text-logo z25 bg-white w-100 d-flex align-items-center justify-content-center flex-column mt-3">
                     <img src="images/logo.PNG" alt="logo" width="400">
-                    <div class="h4 mb-5">now accepting custom orders in atlanta, ga</div>
+                    <div class="h4 mb-3">place orders and ask questions here</div>
                 </div>
             </header>
         </div>
 
-        <div class="container-fluid m-0 p-0">
-            <main>
-                <div class="row bg-gray p-0 m-0">
-                    <div class="d-flex flex-column justify-content-center align-items-center m-0 p-0" id="story">
-                        <div class="display-3 text-white mb-4">the bostie boys story</div>
-                        <div class="col-6 text-white text-center mb-3">Bostie Boys Bakery is the creative outlet for
-                            Katie
-                            Toney,
-                            who discovered a love for baking sourdough bread during the pandemic. She has grown her
-                            skills to include many types of bread and pastry, and likes to sell them to friends in
-                            the Atlanta area. The bakery is named after her beloved trio of rescued Boston Terriers:
-                            Buddy,
-                            Baker, and Bowie.
-                        </div>
-                        <div class="col-6 text-white text-center mb-3">Katie runs her business out of her home in
-                            Atlanta's
-                            historic West End neighborhood, with her three trusty taste testers. Each order is fulfilled
-                            as it is received, meaning that she doesn't maintain any inventory. Because her bread is
-                            baked primarily using natural leaven, you should give a minimum of three days' notice in
-                            your orders.
-                        </div>
+        <div class="position-relative container-fluid m-o p-0">
+
+            <div class="contact rowposition-absolute d-flex flex-column pl-3 w-100">
+                <form class="row col-6 offset-3 d-flex position-relative bg-gray pb-3 text-white">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="First & Last Name">
                     </div>
-                </div>
-            </main>
-        </div>
-
-        <div class="container-fluid m-0 p-0">
-            <div class="footer row bg-logo">
-                <div class=" footerImg col-4 d-flex justify-content-center align-items-center">
-                    <img src="images/currant.jpeg" width="400" alt="currantBread">
-                </div>
-                <div class="footerImg col-4 d-flex justify-content-center align-items-center">
-                    <img src="images/gateau.jpeg" width="400" alt="gateauBasque">
-                </div>
-                <div class="footerImg col-4 d-flex justify-content-center align-items-center">
-                    <img src="images/biscuits.jpeg" width="400" alt="biscuits">
-                </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Ask questions and/or place orders here</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="I will get back to you as quickly as I can!"></textarea>
+                    </div>
+                </form>
             </div>
-        </div>
-    </div>
-
-
-</body>
-
-</html>

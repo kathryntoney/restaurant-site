@@ -1,0 +1,23 @@
+main {
+    background-image: url(../images/frangipane.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 3400px;
+    font-size: 30px;
+    color: #63584C;
+    margin: 0;
+    padding: 0;
+}
+
+#bread-description {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#description {
+    border: 2px dotted white;
+}
+
+img {
+    border: 2px dotted white;
+}
